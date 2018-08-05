@@ -33,7 +33,9 @@
             android:authorities="com.karimrizk.triviapp"
             android:exported="false" />
 
-        <activity android:name="com.karimrizk.triviapp.ui.QuizActivity" />
+        <activity
+            android:name="com.karimrizk.triviapp.ui.QuizActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name="com.karimrizk.triviapp.ui.GameOverActivity" />
     </application>
 

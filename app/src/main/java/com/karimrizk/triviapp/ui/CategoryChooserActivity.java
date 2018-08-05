@@ -73,6 +73,13 @@ public class CategoryChooserActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "No Internet Connection", Toast.LENGTH_LONG).show();
         } else {
             categoryChooserBinding.progressBar.setVisibility(View.VISIBLE);
+            categoryChooserBinding.btnCategoryGeneral.setEnabled(false);
+            categoryChooserBinding.btnCategorySports.setEnabled(false);
+            categoryChooserBinding.btnCategoryCelebrities.setEnabled(false);
+            categoryChooserBinding.btnCategoryGeography.setEnabled(false);
+            categoryChooserBinding.btnCategoryBooks.setEnabled(false);
+            categoryChooserBinding.btnCategoryFilm.setEnabled(false);
+
             new TriviaQueryTask().execute();
         }
     }
@@ -92,24 +99,6 @@ public class CategoryChooserActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-/*            callEasy.enqueue(new Callback<Results>() {
-                @Override
-                public void onResponse(Call<Results> call, Response<Results> response) {
-                    List<Question> questions = response.body().getquestions();
-
-                    for (int i = 0; i < questions.size(); i++) {
-                        addToDatabase(questions.get(i));
-                    }
-
-
-                }
-
-                @Override
-                public void onFailure(Call<Results> call, Throwable t) {
-                    Toast.makeText(getApplicationContext(), "ERROR", Toast.LENGTH_LONG).show();
-                    Log.d("ERROR", "Error retrieving data");
-                }
-            });*/
 
             Call<Results> callMedium = apiService.getResults(4, chosenCategory, Values.difficulty.medium.toString(), Values.QUIZ_TYPE);
             List<Question> mediumQuestions = new ArrayList<>();
@@ -121,23 +110,6 @@ public class CategoryChooserActivity extends AppCompatActivity {
             }
             questions.addAll(mediumQuestions);
 
-            /*callMedium.enqueue(new Callback<Results>() {
-                @Override
-                public void onResponse(Call<Results> call, Response<Results> response) {
-                    List<Question> questions = response.body().getquestions();
-
-                    for (int i = 0; i < questions.size(); i++) {
-                        addToDatabase(questions.get(i));
-                    }
-                }
-
-                @Override
-                public void onFailure(Call<Results> call, Throwable t) {
-                    Toast.makeText(getApplicationContext(), "ERROR", Toast.LENGTH_LONG).show();
-                    Log.d("ERROR", "Error retrieving data");
-                }
-            });*/
-
 
             Call<Results> callHard = apiService.getResults(3, chosenCategory, Values.difficulty.hard.toString(), Values.QUIZ_TYPE);
             List<Question> questionsHard = new ArrayList<>();
@@ -147,45 +119,27 @@ public class CategoryChooserActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
             questions.addAll(questionsHard);
-/*            callHard.enqueue(new Callback<Results>() {
-                @Override
-                public void onResponse(Call<Results> call, Response<Results> response) {
-                    List<Question> questions = response.body().getquestions();
 
-                    for (int i = 0; i < questions.size(); i++) {
-                        addToDatabase(questions.get(i));
-                    }
-                }
-
-                @Override
-                public void onFailure(Call<Results> call, Throwable t) {
-                    Toast.makeText(getApplicationContext(), "ERROR", Toast.LENGTH_LONG).show();
-                    Log.d("ERROR", "Error retrieving data");
-                }
-            });*/
             return questions;
         }
 
         @Override
         protected void onPostExecute(List<Question> questions) {
             super.onPostExecute(questions);
-            for (int i = 0; i < questions.size(); i++){
+            for (int i = 0; i < questions.size(); i++) {
                 addToDatabase(questions.get(i));
                 categoryChooserBinding.progressBar.setVisibility(View.INVISIBLE);
+                categoryChooserBinding.btnCategoryGeneral.setEnabled(true);
+                categoryChooserBinding.btnCategorySports.setEnabled(true);
+                categoryChooserBinding.btnCategoryCelebrities.setEnabled(true);
+                categoryChooserBinding.btnCategoryGeography.setEnabled(true);
+                categoryChooserBinding.btnCategoryBooks.setEnabled(true);
+                categoryChooserBinding.btnCategoryFilm.setEnabled(true);
                 Intent intent = new Intent(CategoryChooserActivity.this, QuizActivity.class);
                 startActivity(intent);
             }
         }
 
-       /* @Override
-        protected void onPostExecute(Void aVoid) {
-            super.onPostExecute(aVoid);
-            categoryChooserBinding.progressBar.setVisibility(View.INVISIBLE);
-            //Intent intent = new Intent(CategoryChooserActivity.this, QuizActivity.class);
-            //startActivity(intent);
-
-
-        }*/
     }
 
     public boolean isOnline() {
@@ -211,7 +165,8 @@ public class CategoryChooserActivity extends AppCompatActivity {
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER, "");
 
         Uri uri = getContentResolver().insert(TriviaContract.TriviaEntry.CONTENT_URI, contentValues);
-        Log.d(TAG,uri.toString());
+        assert uri != null;
+        Log.d(TAG, uri.toString());
 
     }
 }

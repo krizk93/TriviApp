@@ -26,7 +26,10 @@
             android:authorities="com.karimrizk.triviapp"
             android:exported="false" />
 
-        <activity android:name=".ui.QuizActivity" />
+        <activity
+            android:name=".ui.QuizActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
         <activity android:name=".ui.GameOverActivity"></activity>
     </application>
 
