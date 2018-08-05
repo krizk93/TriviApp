@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.CategoryChooserActivity">
+
+        <TextView
+            android:id="@+id/tv_category_chooser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="casual"
+            android:text="@string/category_chooser_title"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_category_general"
+            style="@style/CategoryButton"
+            android:onClick="onCategoryChosen"
+            android:text="@string/category_general_knowledge"
+            app:layout_constraintBottom_toTopOf="@+id/btn_category_celebrities"
+            app:layout_constraintEnd_toEndOf="@+id/btn_category_celebrities"
+            app:layout_constraintStart_toStartOf="@+id/btn_category_celebrities"
+            app:layout_constraintTop_toBottomOf="@+id/tv_category_chooser" />
+
+        <Button
+            android:id="@+id/btn_category_sports"
+            style="@style/CategoryButton"
+            android:onClick="onCategoryChosen"
+            android:text="@string/category_sports"
+            app:layout_constraintBottom_toTopOf="@+id/btn_category_geography"
+            app:layout_constraintEnd_toEndOf="@+id/btn_category_geography"
+            app:layout_constraintStart_toStartOf="@+id/btn_category_geography"
+            app:layout_constraintTop_toBottomOf="@+id/tv_category_chooser" />
+
+        <Button
+            android:id="@+id/btn_category_celebrities"
+            style="@style/CategoryButton"
+            android:onClick="onCategoryChosen"
+            android:text="@string/category_celebrities"
+            app:layout_constraintBottom_toTopOf="@+id/btn_category_books"
+            app:layout_constraintEnd_toEndOf="@+id/btn_category_books"
+            app:layout_constraintStart_toStartOf="@+id/btn_category_books"
+            app:layout_constraintTop_toBottomOf="@+id/btn_category_general" />
+
+        <Button
+            android:id="@+id/btn_category_geography"
+            style="@style/CategoryButton"
+            android:onClick="onCategoryChosen"
+            android:text="@string/category_geography"
+            app:layout_constraintBottom_toTopOf="@+id/btn_category_film"
+            app:layout_constraintEnd_toEndOf="@+id/btn_category_film"
+            app:layout_constraintStart_toStartOf="@+id/btn_category_film"
+            app:layout_constraintTop_toBottomOf="@+id/btn_category_sports" />
+
+        <Button
+            android:id="@+id/btn_category_books"
+            style="@style/CategoryButton"
+            android:onClick="onCategoryChosen"
+            android:text="@string/category_books"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_category_film"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_category_celebrities" />
+
+        <Button
+            android:id="@+id/btn_category_film"
+            style="@style/CategoryButton"
+            android:onClick="onCategoryChosen"
+            android:text="@string/category_film"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_category_books"
+            app:layout_constraintTop_toBottomOf="@+id/btn_category_geography" />
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="invisible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TriviApp</string>
+    <string name="btn_start">Start</string>
+    <string name="high_scores">High Scores</string>
+    <string name="category_chooser_title">Choose a category</string>
+    <string name="category_general_knowledge">General Knowledge</string>
+    <string name="category_sports">Sports</string>
+    <string name="category_celebrities">Celebrities</string>
+    <string name="category_geography">Geography</string>
+    <string name="category_books">Books</string>
+    <string name="category_film">Film</string>
+    <string name="game_over">Game Over</string>
+    <string name="your_score">Your Score:</string>
+    <string name="play_again">Play Again</string>
+    <string name="view_answers">View Answers</string>
+</resources>
