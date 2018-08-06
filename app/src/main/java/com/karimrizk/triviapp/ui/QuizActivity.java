@@ -10,9 +10,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.karimrizk.triviapp.R;
+import com.karimrizk.triviapp.Values;
 import com.karimrizk.triviapp.persistence.TriviaContract;
 
 import java.util.ArrayList;
@@ -22,6 +22,7 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
 
     private static final String TAG = QuizActivity.class.getName();
     private static final int TASK_LOADER_ID = 0;
+    private static Integer currentQuestion = 0;
     Uri uri;
     private QuizFragment quizFragment;
     android.support.v4.app.FragmentManager fragmentManager;
@@ -33,8 +34,12 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
 
         quizFragment = new QuizFragment();
 
+        if (Values.isNewQuiz) {
+            currentQuestion = 0;
+        }
 
-        uri = TriviaContract.TriviaEntry.CONTENT_URI.buildUpon().appendPath("1").build();
+        currentQuestion++;
+        uri = TriviaContract.TriviaEntry.CONTENT_URI.buildUpon().appendPath(currentQuestion.toString()).build();
         getSupportLoaderManager().initLoader(TASK_LOADER_ID, null, this);
 
     }

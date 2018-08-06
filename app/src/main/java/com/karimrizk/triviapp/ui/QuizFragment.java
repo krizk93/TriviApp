@@ -8,21 +8,25 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.widget.Button;
 
 import com.karimrizk.triviapp.R;
 import com.karimrizk.triviapp.databinding.FragmentQuizBinding;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
-public class QuizFragment extends Fragment {
+public class QuizFragment extends Fragment implements View.OnClickListener {
     private static final String QUESTION_KEY = "questionKey";
     private static final String CORRECT_ANSWER_KEY = "correctAnswerKey";
     private static final String INCORRECT_ANSWERS_KEY = "incorrectAnswersKey";
+    private static final String ANSWERS_KEY = "answersKey";
     private String question = "";
     private String correctAnswer = "";
     private List<String> incorrectAnswers = new ArrayList<>();
+    private List<String> answers = new ArrayList<>();
+    private FragmentQuizBinding fragmentQuizBinding;
 
     public QuizFragment() {
 
@@ -36,16 +40,28 @@ public class QuizFragment extends Fragment {
             question = savedInstanceState.getString(QUESTION_KEY);
             correctAnswer = savedInstanceState.getString(CORRECT_ANSWER_KEY);
             incorrectAnswers = savedInstanceState.getStringArrayList(INCORRECT_ANSWERS_KEY);
+            answers = savedInstanceState.getStringArrayList(ANSWERS_KEY);
+        } else {
+            answers.add(correctAnswer);
+            answers.add(incorrectAnswers.get(0));
+            answers.add(incorrectAnswers.get(1));
+            answers.add(incorrectAnswers.get(2));
+            Collections.shuffle(answers);
         }
 
-        FragmentQuizBinding fragmentQuizBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_quiz, container, false);
+        fragmentQuizBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_quiz, container, false);
         fragmentQuizBinding.txtQuestion.setText(question);
-        fragmentQuizBinding.btnAnswer1.setText(correctAnswer);
+        fragmentQuizBinding.btnAnswer1.setText(answers.get(0));
         if (!incorrectAnswers.isEmpty()) {
-            fragmentQuizBinding.btnAnswer2.setText(incorrectAnswers.get(0));
-            fragmentQuizBinding.btnAnswer3.setText(incorrectAnswers.get(1));
-            fragmentQuizBinding.btnAnswer4.setText(incorrectAnswers.get(2));
+            fragmentQuizBinding.btnAnswer2.setText(answers.get(1));
+            fragmentQuizBinding.btnAnswer3.setText(answers.get(2));
+            fragmentQuizBinding.btnAnswer4.setText(answers.get(3));
         }
+
+        fragmentQuizBinding.btnAnswer1.setOnClickListener(this);
+        fragmentQuizBinding.btnAnswer2.setOnClickListener(this);
+        fragmentQuizBinding.btnAnswer3.setOnClickListener(this);
+        fragmentQuizBinding.btnAnswer4.setOnClickListener(this);
 
         return fragmentQuizBinding.getRoot();
 
@@ -57,6 +73,7 @@ public class QuizFragment extends Fragment {
         outState.putString(QUESTION_KEY, question);
         outState.putString(CORRECT_ANSWER_KEY, correctAnswer);
         outState.putStringArrayList(INCORRECT_ANSWERS_KEY, (ArrayList<String>) incorrectAnswers);
+        outState.putStringArrayList(ANSWERS_KEY, (ArrayList<String>) answers);
 
     }
 
@@ -70,6 +87,34 @@ public class QuizFragment extends Fragment {
 
     public void setIncorrectAnswers(List<String> incorrectAnswers) {
         this.incorrectAnswers = incorrectAnswers;
+    }
+
+
+    @Override
+    public void onClick(View v) {
+
+        switch (v.getId()) {
+            case R.id.btn_answer1:
+                checkForAnswer(fragmentQuizBinding.btnAnswer1);
+                break;
+            case R.id.btn_answer2:
+                checkForAnswer(fragmentQuizBinding.btnAnswer2);
+                break;
+            case R.id.btn_answer3:
+                checkForAnswer(fragmentQuizBinding.btnAnswer3);
+                break;
+            case R.id.btn_answer4:
+                checkForAnswer(fragmentQuizBinding.btnAnswer4);
+                break;
+        }
+    }
+
+    private void checkForAnswer(Button button) {
+        if (button.getText().toString().equals(correctAnswer)) {
+            button.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
+        } else {
+            button.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
+        }
     }
 }
 
