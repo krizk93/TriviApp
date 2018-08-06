@@ -36,6 +36,7 @@
 
         <activity
             android:name="com.karimrizk.triviapp.ui.QuizActivity"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name="com.karimrizk.triviapp.ui.GameOverActivity" />
     </application>

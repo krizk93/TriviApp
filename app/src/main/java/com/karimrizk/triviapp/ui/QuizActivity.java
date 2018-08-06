@@ -12,7 +12,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Toast;
 
 import com.karimrizk.triviapp.R;
 import com.karimrizk.triviapp.Values;
@@ -22,6 +21,9 @@ import com.karimrizk.triviapp.persistence.TriviaContract;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.karimrizk.triviapp.Values.CURRENT_QUESTION_KEY;
+import static com.karimrizk.triviapp.Values.SCORE_KEY;
+
 public class QuizActivity extends AppCompatActivity implements android.support.v4.app.LoaderManager.LoaderCallbacks<Cursor>, QuizFragment.OnAnswerClickedListener {
 
     private static final String TAG = QuizActivity.class.getName();
@@ -29,8 +31,8 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
     private static Integer currentQuestion = 0;
     private static Integer lastQuestion;
     private static Integer score = 0;
+    private static boolean replace = false;
     Uri uri;
-    private QuizFragment quizFragment;
     android.support.v4.app.FragmentManager fragmentManager;
 
     ActivityQuizBinding activityQuizBinding;
@@ -41,22 +43,31 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
         setContentView(R.layout.activity_quiz);
         activityQuizBinding = DataBindingUtil.setContentView(this, R.layout.activity_quiz);
 
-
-        if (Values.isNewQuiz) {
-            currentQuestion = 0;
+        if (savedInstanceState != null) {
+            score = savedInstanceState.getInt(SCORE_KEY);
+            currentQuestion = savedInstanceState.getInt(CURRENT_QUESTION_KEY);
+        } else if (Values.isNewQuiz) {
+            currentQuestion = 1;
             score = 0;
         }
 
-        lastQuestion = currentQuestion + 10;
-        currentQuestion++;
+        lastQuestion = currentQuestion + 9;
+        //currentQuestion++;
         activityQuizBinding.txtScore.setText(String.valueOf(score));
 
         getSupportLoaderManager().initLoader(TASK_LOADER_ID, null, this);
 
     }
 
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt(SCORE_KEY, score);
+        outState.putInt(CURRENT_QUESTION_KEY, currentQuestion);
+    }
+
     public void onClose(View v) {
-        Intent intent = new Intent(QuizActivity.this,HomeActivity.class);
+        Intent intent = new Intent(QuizActivity.this, HomeActivity.class);
         startActivity(intent);
     }
 
@@ -76,7 +87,7 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
 
             @Override
             protected void onStartLoading() {
-                //super.onStartLoading();
+                super.onStartLoading();
                 if (result != null) {
                     deliverResult(result);
                 } else {
@@ -110,7 +121,7 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
         if (data != null && data.moveToFirst()) {
             String question = data.getString(data.getColumnIndex(TriviaContract.TriviaEntry.COLUMN_QUESTION));
             Log.d(TAG, question);
-            quizFragment = new QuizFragment();
+            QuizFragment quizFragment = new QuizFragment();
             quizFragment.setQuestion(data.getString(data.getColumnIndex(TriviaContract.TriviaEntry.COLUMN_QUESTION)));
             quizFragment.setCorrectAnswer(data.getString(data.getColumnIndex(TriviaContract.TriviaEntry.COLUMN_CORRECT_ANSWER)));
 
@@ -122,13 +133,14 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
 
             fragmentManager = getSupportFragmentManager();
 
-            if (fragmentManager.findFragmentById(R.id.fragment_container) == null) {
+            if (fragmentManager.findFragmentById(R.id.fragment_container) == null && !replace) {
                 fragmentManager.beginTransaction()
                         .add(R.id.fragment_container, quizFragment)
                         .commit();
-            } else {
+            } else if (replace) {
+                replace = false;
                 fragmentManager.beginTransaction()
-                        .replace(R.id.fragment_container,quizFragment)
+                        .replace(R.id.fragment_container, quizFragment)
                         .commit();
             }
         }
@@ -141,19 +153,23 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
 
     @Override
     public void onCorrectAnswerClicked() {
-        //Toast.makeText(getApplicationContext(),"CORRECT !",Toast.LENGTH_SHORT).show();
         score = score + 10;
         activityQuizBinding.txtScore.setText(String.valueOf(score));
         currentQuestion++;
-        //Loader<Cursor> loader =  getLoaderManager().getLoader(TASK_LOADER_ID);
-        getSupportLoaderManager().restartLoader(TASK_LOADER_ID,null,this);
-
+        replace = true;
+        if (currentQuestion <= lastQuestion) {
+            getSupportLoaderManager().restartLoader(TASK_LOADER_ID, null, this);
+        } else {
+            Values.isNewQuiz = false;
+            Intent intent = new Intent(QuizActivity.this, CategoryChooserActivity.class);
+            startActivity(intent);
+        }
     }
 
     @Override
     public void onIncorrectAnswerClicked() {
-        //Toast.makeText(getApplicationContext(),"INCORRECT !", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(QuizActivity.this,GameOverActivity.class);
+        Intent intent = new Intent(QuizActivity.this, GameOverActivity.class);
+        intent.putExtra(SCORE_KEY,score);
         startActivity(intent);
     }
 }

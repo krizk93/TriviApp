@@ -1,6 +1,8 @@
 package com.karimrizk.triviapp.ui;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -12,9 +14,13 @@ import com.karimrizk.triviapp.Values;
 import com.karimrizk.triviapp.databinding.ActivityHomeBinding;
 import com.karimrizk.triviapp.persistence.TriviaContract;
 
+import static com.karimrizk.triviapp.Values.HIGH_SCORE;
+import static com.karimrizk.triviapp.Values.SHARED_PREFERENCE_NAME;
+
 public class HomeActivity extends AppCompatActivity {
 
     ActivityHomeBinding homeBinding;
+    SharedPreferences sharedPreferences;
 
 
     @Override
@@ -22,6 +28,10 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         homeBinding = DataBindingUtil.setContentView(this, R.layout.activity_home);
+
+        sharedPreferences = getSharedPreferences(SHARED_PREFERENCE_NAME, Context.MODE_PRIVATE);
+        int highScore = sharedPreferences.getInt(HIGH_SCORE,0);
+        homeBinding.tvHighScore.setText(String.valueOf(highScore));
 
         int removed = getContentResolver().delete(TriviaContract.TriviaEntry.CONTENT_URI, null, null);
         if (removed > 0) {

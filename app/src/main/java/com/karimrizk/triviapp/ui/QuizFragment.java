@@ -18,12 +18,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import static com.karimrizk.triviapp.Values.ANSWERS_KEY;
+import static com.karimrizk.triviapp.Values.CORRECT_ANSWER_KEY;
+import static com.karimrizk.triviapp.Values.INCORRECT_ANSWERS_KEY;
+import static com.karimrizk.triviapp.Values.QUESTION_KEY;
+
 public class QuizFragment extends Fragment implements View.OnClickListener {
 
-    private static final String QUESTION_KEY = "questionKey";
-    private static final String CORRECT_ANSWER_KEY = "correctAnswerKey";
-    private static final String INCORRECT_ANSWERS_KEY = "incorrectAnswersKey";
-    private static final String ANSWERS_KEY = "answersKey";
+
     private String question = "";
     private String correctAnswer = "";
     private List<String> incorrectAnswers = new ArrayList<>();

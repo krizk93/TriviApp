@@ -8,27 +8,55 @@
         android:layout_height="match_parent"
         tools:context=".ui.HomeActivity">
 
-        <Button
-            android:id="@+id/btn_start"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/label_welcome"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="onStartClicked"
-            android:text="@string/btn_start"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_margin="20dp"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/welcome"
+            android:textColor="@color/PrimaryTextColor"
+            android:textSize="60sp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <Button
-            android:id="@+id/btn_high_scores"
+        <TextView
+            android:id="@+id/label_your_high_score"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:onClick="onHighScoresClicked"
-            android:text="@string/high_scores"
+            android:layout_marginTop="60dp"
+            android:text="@string/your_highscore"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/btn_start" />
+            app:layout_constraintTop_toBottomOf="@id/label_welcome" />
+
+        <TextView
+            android:id="@+id/tv_high_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            tools:text="300"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/label_your_high_score" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:onClick="onStartClicked"
+            android:text="@string/btn_start"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_high_score" />
 
     </android.support.constraint.ConstraintLayout>
 </layout>

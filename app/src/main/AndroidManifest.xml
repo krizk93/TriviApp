@@ -28,7 +28,8 @@
 
         <activity
             android:name=".ui.QuizActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:screenOrientation="portrait"/>
 
         <activity android:name=".ui.GameOverActivity"></activity>
     </application>

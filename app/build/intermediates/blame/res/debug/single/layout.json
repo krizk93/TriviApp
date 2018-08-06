@@ -12,6 +12,10 @@
         "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/activity_category_chooser.xml"
     },
     {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_game_over.xml",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/activity_game_over.xml"
+    },
+    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home.xml",
         "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/activity_home.xml"
     }
