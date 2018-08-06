@@ -21,21 +21,22 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
-        homeBinding = DataBindingUtil.setContentView(this,R.layout.activity_home);
+        homeBinding = DataBindingUtil.setContentView(this, R.layout.activity_home);
 
-        int removed = getContentResolver().delete(TriviaContract.TriviaEntry.CONTENT_URI,null,null);
+        int removed = getContentResolver().delete(TriviaContract.TriviaEntry.CONTENT_URI, null, null);
         if (removed > 0) {
-            Toast.makeText(getApplicationContext(),"Removed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), "Removed", Toast.LENGTH_SHORT).show();
         }
+    }
 
 
-        homeBinding.btnStart.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Values.isNewQuiz = true;
-                Intent intent = new Intent(HomeActivity.this,CategoryChooserActivity.class);
-                startActivity(intent);
-            }
-        });
+    public void onStartClicked(View v) {
+        Values.isNewQuiz = true;
+        Intent intent = new Intent(HomeActivity.this, CategoryChooserActivity.class);
+        startActivity(intent);
+    }
+
+    public void onHighScoresClicked(View v) {
+
     }
 }

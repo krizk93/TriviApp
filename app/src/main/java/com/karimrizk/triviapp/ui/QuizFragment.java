@@ -1,5 +1,6 @@
 package com.karimrizk.triviapp.ui;
 
+import android.content.Context;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -18,6 +19,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class QuizFragment extends Fragment implements View.OnClickListener {
+
     private static final String QUESTION_KEY = "questionKey";
     private static final String CORRECT_ANSWER_KEY = "correctAnswerKey";
     private static final String INCORRECT_ANSWERS_KEY = "incorrectAnswersKey";
@@ -27,6 +29,25 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
     private List<String> incorrectAnswers = new ArrayList<>();
     private List<String> answers = new ArrayList<>();
     private FragmentQuizBinding fragmentQuizBinding;
+
+    OnAnswerClickedListener mCallback;
+
+    public interface OnAnswerClickedListener {
+        void onCorrectAnswerClicked();
+
+        void onIncorrectAnswerClicked();
+    }
+
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+
+        try {
+            mCallback = (OnAnswerClickedListener) context;
+        } catch (ClassCastException e) {
+            throw new ClassCastException(context.toString() + "must implement OnAnswerClickedListener");
+        }
+    }
 
     public QuizFragment() {
 
@@ -62,6 +83,12 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
         fragmentQuizBinding.btnAnswer2.setOnClickListener(this);
         fragmentQuizBinding.btnAnswer3.setOnClickListener(this);
         fragmentQuizBinding.btnAnswer4.setOnClickListener(this);
+
+        //helper function
+        helper(fragmentQuizBinding.btnAnswer1);
+        helper(fragmentQuizBinding.btnAnswer2);
+        helper(fragmentQuizBinding.btnAnswer3);
+        helper(fragmentQuizBinding.btnAnswer4);
 
         return fragmentQuizBinding.getRoot();
 
@@ -110,6 +137,16 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
     }
 
     private void checkForAnswer(Button button) {
+        if (button.getText().toString().equals(correctAnswer)) {
+            //button.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
+            mCallback.onCorrectAnswerClicked();
+        } else {
+            //button.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
+            mCallback.onIncorrectAnswerClicked();
+        }
+    }
+
+    private void helper(Button button) {
         if (button.getText().toString().equals(correctAnswer)) {
             button.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
         } else {
