@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.AdRequest;
 import com.karimrizk.triviapp.R;
 import com.karimrizk.triviapp.utils.Values;
 import com.karimrizk.triviapp.databinding.ActivityHomeBinding;
@@ -32,6 +33,9 @@ public class HomeActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences(SHARED_PREFERENCE_NAME, Context.MODE_PRIVATE);
         int highScore = sharedPreferences.getInt(HIGH_SCORE, 0);
         homeBinding.tvHighScore.setText(String.valueOf(highScore));
+
+        AdRequest adRequest = new AdRequest.Builder().build();
+        homeBinding.adView.loadAd(adRequest);
 
         int removed = getContentResolver().delete(TriviaContract.TriviaEntry.CONTENT_URI, null, null);
         if (removed > 0) {
