@@ -22,7 +22,7 @@ public class Results {
         this.responseCode = responseCode;
     }
 
-    public List<Question> getquestions() {
+    public List<Question> getQuestions() {
         return questions;
     }
 

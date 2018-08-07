@@ -172,6 +172,10 @@
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-mdpi_triviapp_icon.png.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/drawable-mdpi/triviapp_icon.png"
+    },
+    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ad50cdb297c02e7df841ce4810b466c3/res/layout/notification_media_cancel_action.xml"
     },
@@ -444,6 +448,10 @@
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/xml_trivia_widget_info.xml.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/xml/trivia_widget_info.xml"
+    },
+    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -632,12 +640,12 @@
         "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
-        "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/layout_select_dialog_singlechoice_material.xml.flat",
+        "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable_abc_seekbar_tick_mark_material.xml.flat",
@@ -956,6 +964,10 @@
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/18d271a8093d9245a07a78179884c396/res/layout/design_menu_item_action_area.xml"
     },
     {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xxhdpi_triviapp_icon.png.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/drawable-xxhdpi/triviapp_icon.png"
+    },
+    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/anim_abc_grow_fade_in_from_bottom.xml.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
@@ -990,6 +1002,10 @@
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/layout_activity_category_chooser.xml.flat",
         "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/activity_category_chooser.xml"
+    },
+    {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xhdpi_triviapp_icon.png.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/drawable-xhdpi/triviapp_icon.png"
     },
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable_abc_list_selector_background_transition_holo_dark.xml.flat",
@@ -1058,6 +1074,10 @@
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xxxhdpi_triviapp_icon.png.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/drawable-xxxhdpi/triviapp_icon.png"
     },
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat",
@@ -1436,6 +1456,10 @@
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/layout_trivia_widget.xml.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/trivia_widget.xml"
+    },
+    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/e9ca3490d254ed124303e4922f72278d/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
@@ -1450,6 +1474,10 @@
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility_off.png.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/18d271a8093d9245a07a78179884c396/res/drawable-mdpi-v4/design_ic_visibility_off.png"
+    },
+    {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-nodpi_example_appwidget_preview.png.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/drawable-nodpi/example_appwidget_preview.png"
     },
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1650,6 +1678,10 @@
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-v21_design_password_eye.xml.flat",
         "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/18d271a8093d9245a07a78179884c396/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable-hdpi_triviapp_icon.png.flat",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/drawable-hdpi/triviapp_icon.png"
     },
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/res/merged/debug/drawable_abc_dialog_material_background.xml.flat",

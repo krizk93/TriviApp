@@ -3,6 +3,7 @@ package com.karimrizk.triviapp.ui;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.Intent;
+import android.database.SQLException;
 import android.databinding.DataBindingUtil;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -15,7 +16,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.karimrizk.triviapp.R;
-import com.karimrizk.triviapp.Values;
+import com.karimrizk.triviapp.utils.Values;
 import com.karimrizk.triviapp.api.Client;
 import com.karimrizk.triviapp.api.Service;
 import com.karimrizk.triviapp.databinding.ActivityCategoryChooserBinding;
@@ -94,7 +95,7 @@ public class CategoryChooserActivity extends AppCompatActivity {
             Call<Results> callEasy = apiService.getResults(3, chosenCategory, Values.difficulty.easy.toString(), Values.QUIZ_TYPE);
             List<Question> questions = new ArrayList<>();
             try {
-                questions = callEasy.execute().body().getquestions();
+                questions = callEasy.execute().body().getQuestions();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -103,7 +104,7 @@ public class CategoryChooserActivity extends AppCompatActivity {
             Call<Results> callMedium = apiService.getResults(4, chosenCategory, Values.difficulty.medium.toString(), Values.QUIZ_TYPE);
             List<Question> mediumQuestions = new ArrayList<>();
             try {
-                mediumQuestions = callMedium.execute().body().getquestions();
+                mediumQuestions = callMedium.execute().body().getQuestions();
             } catch (IOException e) {
                 e.printStackTrace();
 
@@ -114,7 +115,7 @@ public class CategoryChooserActivity extends AppCompatActivity {
             Call<Results> callHard = apiService.getResults(3, chosenCategory, Values.difficulty.hard.toString(), Values.QUIZ_TYPE);
             List<Question> questionsHard = new ArrayList<>();
             try {
-                questionsHard = callHard.execute().body().getquestions();
+                questionsHard = callHard.execute().body().getQuestions();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -125,24 +126,36 @@ public class CategoryChooserActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(List<Question> questions) {
+
             super.onPostExecute(questions);
+            List<Uri> uris = new ArrayList<>();
             for (int i = 0; i < questions.size(); i++) {
-                addToDatabase(questions.get(i));
-                categoryChooserBinding.progressBar.setVisibility(View.INVISIBLE);
-                categoryChooserBinding.btnCategoryGeneral.setEnabled(true);
-                categoryChooserBinding.btnCategorySports.setEnabled(true);
-                categoryChooserBinding.btnCategoryCelebrities.setEnabled(true);
-                categoryChooserBinding.btnCategoryGeography.setEnabled(true);
-                categoryChooserBinding.btnCategoryBooks.setEnabled(true);
-                categoryChooserBinding.btnCategoryFilm.setEnabled(true);
+                Uri uri = addToDatabase(questions.get(i));
+                if (uri != null) {
+                    uris.add(uri);
+                }
+            }
+            categoryChooserBinding.progressBar.setVisibility(View.INVISIBLE);
+            categoryChooserBinding.btnCategoryGeneral.setEnabled(true);
+            categoryChooserBinding.btnCategorySports.setEnabled(true);
+            categoryChooserBinding.btnCategoryCelebrities.setEnabled(true);
+            categoryChooserBinding.btnCategoryGeography.setEnabled(true);
+            categoryChooserBinding.btnCategoryBooks.setEnabled(true);
+            categoryChooserBinding.btnCategoryFilm.setEnabled(true);
+
+            if (!uris.isEmpty()) {
                 Intent intent = new Intent(CategoryChooserActivity.this, QuizActivity.class);
                 startActivity(intent);
+            } else {
+                Toast.makeText(getApplicationContext(), "Error storing data", Toast.LENGTH_LONG).show();
             }
+
         }
 
     }
 
     public boolean isOnline() {
+
         ConnectivityManager cm =
                 (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         assert cm != null;
@@ -151,22 +164,38 @@ public class CategoryChooserActivity extends AppCompatActivity {
     }
 
 
-    private void addToDatabase(Question question) {
+    private Uri addToDatabase(Question question) {
+        Uri returnUri = null;
         questionNumber++;
+
         ContentValues contentValues = new ContentValues();
+
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_ID, questionNumber);
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_CATEGORY, question.getCategory());
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_DIFFICULTY, question.getDifficulty());
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_QUESTION, question.getQuestion());
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_CORRECT_ANSWER, question.getCorrectAnswer());
-        contentValues.put(TriviaContract.TriviaEntry.COLUMN_INCORRECT_ANSWER_1, question.getIncorrectAnswers().get(0));
-        contentValues.put(TriviaContract.TriviaEntry.COLUMN_INCORRECT_ANSWER_2, question.getIncorrectAnswers().get(1));
-        contentValues.put(TriviaContract.TriviaEntry.COLUMN_INCORRECT_ANSWER_3, question.getIncorrectAnswers().get(2));
+
+        List<String> incorrectAnswers = question.getIncorrectAnswers();
+
+        if (incorrectAnswers.size() == 3) {
+            contentValues.put(TriviaContract.TriviaEntry.COLUMN_INCORRECT_ANSWER_1, incorrectAnswers.get(0));
+            contentValues.put(TriviaContract.TriviaEntry.COLUMN_INCORRECT_ANSWER_2, incorrectAnswers.get(1));
+            contentValues.put(TriviaContract.TriviaEntry.COLUMN_INCORRECT_ANSWER_3, incorrectAnswers.get(2));
+        }
+
         contentValues.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER, "");
 
-        Uri uri = getContentResolver().insert(TriviaContract.TriviaEntry.CONTENT_URI, contentValues);
-        assert uri != null;
-        Log.d(TAG, uri.toString());
+        try {
+            returnUri = getContentResolver().insert(TriviaContract.TriviaEntry.CONTENT_URI, contentValues);
 
+            if (returnUri != null) {
+                Log.d(TAG, returnUri.toString());
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return returnUri;
     }
 }

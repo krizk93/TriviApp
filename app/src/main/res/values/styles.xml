@@ -13,4 +13,10 @@
         <item name="android:layout_height">@dimen/category_button_height</item>
     </style>
 
+    <style name="AnswerButton">
+        <item name="android:layout_width">@dimen/answer_button_width</item>
+        <item name="android:layout_height">@dimen/answer_button_height</item>
+        <item name="android:layout_marginTop">@dimen/answer_button_top_margin</item>
+    </style>
+
 </resources>

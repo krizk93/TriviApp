@@ -18,10 +18,10 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import static com.karimrizk.triviapp.Values.ANSWERS_KEY;
-import static com.karimrizk.triviapp.Values.CORRECT_ANSWER_KEY;
-import static com.karimrizk.triviapp.Values.INCORRECT_ANSWERS_KEY;
-import static com.karimrizk.triviapp.Values.QUESTION_KEY;
+import static com.karimrizk.triviapp.utils.Values.ANSWERS_KEY;
+import static com.karimrizk.triviapp.utils.Values.CORRECT_ANSWER_KEY;
+import static com.karimrizk.triviapp.utils.Values.INCORRECT_ANSWERS_KEY;
+import static com.karimrizk.triviapp.utils.Values.QUESTION_KEY;
 
 public class QuizFragment extends Fragment implements View.OnClickListener {
 
@@ -66,16 +66,18 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
             answers = savedInstanceState.getStringArrayList(ANSWERS_KEY);
         } else {
             answers.add(correctAnswer);
-            answers.add(incorrectAnswers.get(0));
-            answers.add(incorrectAnswers.get(1));
-            answers.add(incorrectAnswers.get(2));
+            if (incorrectAnswers.size() == 3) {
+                answers.add(incorrectAnswers.get(0));
+                answers.add(incorrectAnswers.get(1));
+                answers.add(incorrectAnswers.get(2));
+            }
             Collections.shuffle(answers);
         }
 
         fragmentQuizBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_quiz, container, false);
         fragmentQuizBinding.txtQuestion.setText(question);
-        fragmentQuizBinding.btnAnswer1.setText(answers.get(0));
-        if (!incorrectAnswers.isEmpty()) {
+        if (answers.size() == 4) {
+            fragmentQuizBinding.btnAnswer1.setText(answers.get(0));
             fragmentQuizBinding.btnAnswer2.setText(answers.get(1));
             fragmentQuizBinding.btnAnswer3.setText(answers.get(2));
             fragmentQuizBinding.btnAnswer4.setText(answers.get(3));

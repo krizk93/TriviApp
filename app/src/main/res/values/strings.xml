@@ -16,5 +16,10 @@
     <string name="play_again">Play Again</string>
     <string name="view_answers">View Answers</string>
     <string name="new_high_score">New High Score !!</string>
+    <string name="close_button">Close Button</string>
+    <string name="appwidget_text">Your High Score</string>
+    <string name="widget_icon">Widget Icon</string>
+    <string name="widget_score">Score</string>
+    <string name="add_widget">Add widget</string>
 
 </resources>

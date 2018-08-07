@@ -22,7 +22,8 @@
             android:onClick="onClose"
             android:src="@drawable/ic_close_white_24dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/close_button" />
 
         <TextView
             android:id="@+id/txt_score"

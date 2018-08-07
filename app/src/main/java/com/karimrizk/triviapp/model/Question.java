@@ -9,19 +9,19 @@ public class Question {
 
     @SerializedName("category")
     @Expose
-    private String category;
+    private String category = "";
     @SerializedName("type")
     @Expose
-    private String type;
+    private String type = "";
     @SerializedName("difficulty")
     @Expose
-    private String difficulty;
+    private String difficulty = "";
     @SerializedName("question")
     @Expose
-    private String question;
+    private String question = "";
     @SerializedName("correct_answer")
     @Expose
-    private String correctAnswer;
+    private String correctAnswer = "";
     @SerializedName("incorrect_answers")
     @Expose
     private List<String> incorrectAnswers = null;

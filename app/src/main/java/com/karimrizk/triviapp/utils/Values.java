@@ -1,4 +1,4 @@
-package com.karimrizk.triviapp;
+package com.karimrizk.triviapp.utils;
 
 public class Values {
 

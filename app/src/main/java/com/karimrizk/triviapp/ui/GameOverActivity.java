@@ -1,5 +1,7 @@
 package com.karimrizk.triviapp.ui;
 
+import android.appwidget.AppWidgetManager;
+import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -7,13 +9,15 @@ import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.karimrizk.triviapp.R;
 import com.karimrizk.triviapp.databinding.ActivityGameOverBinding;
+import com.karimrizk.triviapp.widget.TriviaWidget;
 
-import static com.karimrizk.triviapp.Values.HIGH_SCORE;
-import static com.karimrizk.triviapp.Values.SCORE_KEY;
-import static com.karimrizk.triviapp.Values.SHARED_PREFERENCE_NAME;
+import static com.karimrizk.triviapp.utils.Values.HIGH_SCORE;
+import static com.karimrizk.triviapp.utils.Values.SCORE_KEY;
+import static com.karimrizk.triviapp.utils.Values.SHARED_PREFERENCE_NAME;
 
 public class GameOverActivity extends AppCompatActivity {
 
@@ -34,6 +38,8 @@ public class GameOverActivity extends AppCompatActivity {
             highScore = score;
             sharedPreferences.edit().putInt(HIGH_SCORE, highScore).apply();
             gameOverBinding.labelNewHighscore.setVisibility(View.VISIBLE);
+            updateWidgets(getApplicationContext());
+
         }
         gameOverBinding.tvScore.setText(String.valueOf(score));
     }
@@ -45,7 +51,17 @@ public class GameOverActivity extends AppCompatActivity {
     }
 
     public void onViewAnswers(View v) {
+        Toast.makeText(getApplicationContext(),"TO BE IMPLEMENTED",Toast.LENGTH_SHORT).show();
+    }
 
+    public static void updateWidgets(Context context){
+        AppWidgetManager manager = AppWidgetManager.getInstance(context);
+        int[] ids = manager.getAppWidgetIds(
+                new ComponentName(context, TriviaWidget.class));
+        Intent updateIntent = new Intent();
+        updateIntent.setAction(AppWidgetManager.ACTION_APPWIDGET_UPDATE);
+        updateIntent.putExtra(TriviaWidget.WIDGET_IDS_KEY,ids);
+        context.sendBroadcast(updateIntent);
     }
 
     @Override

@@ -39,6 +39,16 @@
             android:screenOrientation="portrait"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name="com.karimrizk.triviapp.ui.GameOverActivity" />
+
+        <receiver android:name="com.karimrizk.triviapp.widget.TriviaWidget" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/trivia_widget_info" />
+        </receiver>
     </application>
 
 </manifest>

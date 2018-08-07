@@ -28,10 +28,19 @@
 
         <activity
             android:name=".ui.QuizActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".ui.GameOverActivity" />
 
-        <activity android:name=".ui.GameOverActivity"></activity>
+        <receiver android:name=".widget.TriviaWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/trivia_widget_info" />
+        </receiver>
     </application>
 
 </manifest>

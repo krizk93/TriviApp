@@ -10,12 +10,12 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.karimrizk.triviapp.R;
-import com.karimrizk.triviapp.Values;
+import com.karimrizk.triviapp.utils.Values;
 import com.karimrizk.triviapp.databinding.ActivityHomeBinding;
 import com.karimrizk.triviapp.persistence.TriviaContract;
 
-import static com.karimrizk.triviapp.Values.HIGH_SCORE;
-import static com.karimrizk.triviapp.Values.SHARED_PREFERENCE_NAME;
+import static com.karimrizk.triviapp.utils.Values.HIGH_SCORE;
+import static com.karimrizk.triviapp.utils.Values.SHARED_PREFERENCE_NAME;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -30,7 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         homeBinding = DataBindingUtil.setContentView(this, R.layout.activity_home);
 
         sharedPreferences = getSharedPreferences(SHARED_PREFERENCE_NAME, Context.MODE_PRIVATE);
-        int highScore = sharedPreferences.getInt(HIGH_SCORE,0);
+        int highScore = sharedPreferences.getInt(HIGH_SCORE, 0);
         homeBinding.tvHighScore.setText(String.valueOf(highScore));
 
         int removed = getContentResolver().delete(TriviaContract.TriviaEntry.CONTENT_URI, null, null);
@@ -46,7 +46,4 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void onHighScoresClicked(View v) {
-
-    }
 }

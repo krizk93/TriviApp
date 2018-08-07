@@ -1,28 +1,26 @@
 package com.karimrizk.triviapp.ui;
 
 import android.content.Intent;
-import android.content.Loader;
 import android.database.Cursor;
 import android.databinding.DataBindingUtil;
 import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.v4.app.LoaderManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import com.karimrizk.triviapp.R;
-import com.karimrizk.triviapp.Values;
+import com.karimrizk.triviapp.utils.Values;
 import com.karimrizk.triviapp.databinding.ActivityQuizBinding;
 import com.karimrizk.triviapp.persistence.TriviaContract;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.karimrizk.triviapp.Values.CURRENT_QUESTION_KEY;
-import static com.karimrizk.triviapp.Values.SCORE_KEY;
+import static com.karimrizk.triviapp.utils.Values.CURRENT_QUESTION_KEY;
+import static com.karimrizk.triviapp.utils.Values.SCORE_KEY;
 
 public class QuizActivity extends AppCompatActivity implements android.support.v4.app.LoaderManager.LoaderCallbacks<Cursor>, QuizFragment.OnAnswerClickedListener {
 
@@ -51,8 +49,9 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
             score = 0;
         }
 
+        //to make sure we only load 10 questions
         lastQuestion = currentQuestion + 9;
-        //currentQuestion++;
+
         activityQuizBinding.txtScore.setText(String.valueOf(score));
 
         getSupportLoaderManager().initLoader(TASK_LOADER_ID, null, this);
