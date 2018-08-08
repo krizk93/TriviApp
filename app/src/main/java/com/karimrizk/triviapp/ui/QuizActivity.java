@@ -1,5 +1,6 @@
 package com.karimrizk.triviapp.ui;
 
+import android.content.ContentValues;
 import android.content.Intent;
 import android.database.Cursor;
 import android.databinding.DataBindingUtil;
@@ -151,11 +152,18 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
     }
 
     @Override
-    public void onCorrectAnswerClicked() {
+    public void onCorrectAnswerClicked(String answer) {
         score = score + 10;
         activityQuizBinding.txtScore.setText(String.valueOf(score));
+
+        ContentValues values = new ContentValues();
+        values.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER,answer);
+        uri = TriviaContract.TriviaEntry.CONTENT_URI.buildUpon().appendPath(currentQuestion.toString()).build();
+        int updated = getContentResolver().update(uri,values,null,null);
+
         currentQuestion++;
         replace = true;
+
         if (currentQuestion <= lastQuestion) {
             getSupportLoaderManager().restartLoader(TASK_LOADER_ID, null, this);
         } else {
@@ -166,7 +174,12 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
     }
 
     @Override
-    public void onIncorrectAnswerClicked() {
+    public void onIncorrectAnswerClicked(String answer) {
+        ContentValues values = new ContentValues();
+        values.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER,answer);
+        uri = TriviaContract.TriviaEntry.CONTENT_URI.buildUpon().appendPath(currentQuestion.toString()).build();
+        int updated = getContentResolver().update(uri,values,null,null);
+
         Intent intent = new Intent(QuizActivity.this, GameOverActivity.class);
         intent.putExtra(SCORE_KEY,score);
         startActivity(intent);

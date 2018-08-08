@@ -35,9 +35,9 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
     OnAnswerClickedListener mCallback;
 
     public interface OnAnswerClickedListener {
-        void onCorrectAnswerClicked();
+        void onCorrectAnswerClicked(String answer);
 
-        void onIncorrectAnswerClicked();
+        void onIncorrectAnswerClicked(String answer);
     }
 
     @Override
@@ -143,10 +143,10 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
     private void checkForAnswer(Button button) {
         if (button.getText().toString().equals(correctAnswer)) {
             //button.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
-            mCallback.onCorrectAnswerClicked();
+            mCallback.onCorrectAnswerClicked(button.getText().toString());
         } else {
             //button.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
-            mCallback.onIncorrectAnswerClicked();
+            mCallback.onIncorrectAnswerClicked(button.getText().toString());
         }
     }
 
