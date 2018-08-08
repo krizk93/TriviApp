@@ -1,124 +1,124 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
-MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/62546913b18940f6f34f7e2f9e5bacfc/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/b516d9b865346cbf418fcc9c9f394764/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/8ea2e1d225cff7a64982b34664922b5c/AndroidManifest.xml:2:1-9:12
-MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8719252bff465cbdb34872339c8d342b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/093bae9103b96798aa6e0f6ada2d03ac/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/209ff2e3e8e83c198978cf37bbe48d0c/AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:customtabs:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/b7ad929205efc87b114136556f55ec4c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9146c0665a0123598c6a82d0cdb1be3d/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a0e1cbd68801094eb7cc8c732ed52986/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:17:1-55:12
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:17:1-41:12
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:17:1-65:12
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7f4fa2a6336d2c489a57c1869ba19f01/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:2:1-15:12
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/12142b85ee6c180b31de87c6aa3657f3/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:17:1-36:12
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/9b9cb1fbec123e8cbbaf1a54b79ef880/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/05c9ce648234fe6d55055f4055b456d0/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/afd4a07b38029ac12d3cdf7766afb1ba/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d0ab5cc90e209c83bf2bdd4a29237ec5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e7782f72242c5117ffedf92fd71bfad5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d5df6583b8554329dcff22253d0ebfbf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/31ebb1fdf09c543f09fc5021817b446c/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2e86cf016ff7b3dc8361364766db6397/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c07983c4e2787d062e1376fe2aebd5e4/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/4791dfb1a7bb45cd9642dffd5aa3ec5d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e45361444fd6d3a659e7ce048226bbbe/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ec572c1b68f8d10a34cfd084852acc92/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f07dc39b10ae5ef92d7bef724f6211b1/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3279f8a5c048045e315610991e9bfce7/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0eb5a870b81be65910502c543bbc6eb4/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/994a2db2ff85495dd78813df708dd52b/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/5ff63c24dac703bf0cb9b59895f6f23d/AndroidManifest.xml:17:1-24:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5aadf2cc1fc0f55243aa6ea37b0f1fe5/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/1f6debee5dad78c90b100aead909646c/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/5a65a74a3127affd5087db7a31021a58/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/10d2c99d93316ded1a15eb66e0f29844/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b835c6aa3a82f2f0a52862f4a8a18680/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/4ac1bca6f8ed0516d53ac814285c2012/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:customtabs:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/95e7f6b2a0c6c14afaf32ca82d03ab9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/243a1a0d270fb379e62fafb708f4f005/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8f8b4aa717df509dbd7922778351f27e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/aff9c31243e393b05c1d1b4fea4ebf40/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:17:1-41:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a3d69bfda84728975991eefa8fed258/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/da82a9e61da81d2ea6cb097992c599a0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e665a2f6dfe14e911f3f44572731edda/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/fbc012d4ed18d4b5e2cbc86699bf3f1a/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8b238f963a27638b97582fb29a5e6945/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9b74413e398405ca451513cbcada9646/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dd14c29b6862c0ea032f374ffce67ba2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/887a723bb234079ffde18c4dc38968c1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f2dd464bc241a8fdaf973cbebe17eece/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/7e24616896cd4e51cd5dde12b2769805/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0d9bbf0fc835f7162f4a165be14d73f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/75b669507be05ecb49828258330f58e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f1961765d8db31acec547f367f709b7b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/445bd365ea7de0b2036585840e9c2557/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7b2def42cb717ead54cef60d7df6edb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/84d881058119722a2dba2b2ed1da58f3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7b8704df6bd4413008a9eac27f51b2e6/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/53e1c53141b87a4a3946604d9de4310f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c82055497af90adcabc55a61c94dbaf7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/214a9f668cd0a3bf60688261a67609c8/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/855823bc1c6a5fef7aee4d3b5988d20c/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-46:12
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:24:5-79
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:24:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:22:5-79
 	android:name
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:8:5-44:19
-MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/8ea2e1d225cff7a64982b34664922b5c/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/8ea2e1d225cff7a64982b34664922b5c/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/093bae9103b96798aa6e0f6ada2d03ac/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/093bae9103b96798aa6e0f6ada2d03ac/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9146c0665a0123598c6a82d0cdb1be3d/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9146c0665a0123598c6a82d0cdb1be3d/AndroidManifest.xml:9:5-20
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:28:5-53:19
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:28:5-39:19
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:28:5-39:19
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:34:5-63:19
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:34:5-63:19
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7f4fa2a6336d2c489a57c1869ba19f01/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7f4fa2a6336d2c489a57c1869ba19f01/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:7:5-13:19
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/12142b85ee6c180b31de87c6aa3657f3/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/12142b85ee6c180b31de87c6aa3657f3/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:26:5-34:19
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/9b9cb1fbec123e8cbbaf1a54b79ef880/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/9b9cb1fbec123e8cbbaf1a54b79ef880/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/05c9ce648234fe6d55055f4055b456d0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/05c9ce648234fe6d55055f4055b456d0/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/afd4a07b38029ac12d3cdf7766afb1ba/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/afd4a07b38029ac12d3cdf7766afb1ba/AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/5ff63c24dac703bf0cb9b59895f6f23d/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/5ff63c24dac703bf0cb9b59895f6f23d/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/1f6debee5dad78c90b100aead909646c/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/1f6debee5dad78c90b100aead909646c/AndroidManifest.xml:22:5-20
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:8:5-48:19
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/243a1a0d270fb379e62fafb708f4f005/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/243a1a0d270fb379e62fafb708f4f005/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/aff9c31243e393b05c1d1b4fea4ebf40/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/aff9c31243e393b05c1d1b4fea4ebf40/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:28:5-39:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a3d69bfda84728975991eefa8fed258/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a3d69bfda84728975991eefa8fed258/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/da82a9e61da81d2ea6cb097992c599a0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/da82a9e61da81d2ea6cb097992c599a0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e665a2f6dfe14e911f3f44572731edda/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e665a2f6dfe14e911f3f44572731edda/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:7:5-13:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/fbc012d4ed18d4b5e2cbc86699bf3f1a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/fbc012d4ed18d4b5e2cbc86699bf3f1a/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8b238f963a27638b97582fb29a5e6945/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8b238f963a27638b97582fb29a5e6945/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/214a9f668cd0a3bf60688261a67609c8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/214a9f668cd0a3bf60688261a67609c8/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/855823bc1c6a5fef7aee4d3b5988d20c/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/855823bc1c6a5fef7aee4d3b5988d20c/AndroidManifest.xml:22:5-20
 	android:supportsRtl
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:13:9-35
 	android:label
@@ -185,90 +185,96 @@ ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:42:17-59
 	android:name
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:41:17-58
+activity#com.karimrizk.triviapp.ui.UserAnswersActivity
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:45:9-47:71
+	android:theme
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:47:13-69
+	android:name
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:46:13-51
 uses-sdk
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
-MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/62546913b18940f6f34f7e2f9e5bacfc/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/62546913b18940f6f34f7e2f9e5bacfc/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/b516d9b865346cbf418fcc9c9f394764/AndroidManifest.xml:22:5-44
-MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/b516d9b865346cbf418fcc9c9f394764/AndroidManifest.xml:22:5-44
-MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/8ea2e1d225cff7a64982b34664922b5c/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/8ea2e1d225cff7a64982b34664922b5c/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8719252bff465cbdb34872339c8d342b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/8719252bff465cbdb34872339c8d342b/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/093bae9103b96798aa6e0f6ada2d03ac/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/093bae9103b96798aa6e0f6ada2d03ac/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/209ff2e3e8e83c198978cf37bbe48d0c/AndroidManifest.xml:21:5-23:62
-MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/209ff2e3e8e83c198978cf37bbe48d0c/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:customtabs:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/b7ad929205efc87b114136556f55ec4c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/b7ad929205efc87b114136556f55ec4c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9146c0665a0123598c6a82d0cdb1be3d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/9146c0665a0123598c6a82d0cdb1be3d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a0e1cbd68801094eb7cc8c732ed52986/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a0e1cbd68801094eb7cc8c732ed52986/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7f4fa2a6336d2c489a57c1869ba19f01/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/7f4fa2a6336d2c489a57c1869ba19f01/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/12142b85ee6c180b31de87c6aa3657f3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/12142b85ee6c180b31de87c6aa3657f3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/9b9cb1fbec123e8cbbaf1a54b79ef880/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/9b9cb1fbec123e8cbbaf1a54b79ef880/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/05c9ce648234fe6d55055f4055b456d0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/05c9ce648234fe6d55055f4055b456d0/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/afd4a07b38029ac12d3cdf7766afb1ba/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/afd4a07b38029ac12d3cdf7766afb1ba/AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d0ab5cc90e209c83bf2bdd4a29237ec5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/d0ab5cc90e209c83bf2bdd4a29237ec5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e7782f72242c5117ffedf92fd71bfad5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/e7782f72242c5117ffedf92fd71bfad5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d5df6583b8554329dcff22253d0ebfbf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d5df6583b8554329dcff22253d0ebfbf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/31ebb1fdf09c543f09fc5021817b446c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/31ebb1fdf09c543f09fc5021817b446c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2e86cf016ff7b3dc8361364766db6397/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/2e86cf016ff7b3dc8361364766db6397/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c07983c4e2787d062e1376fe2aebd5e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c07983c4e2787d062e1376fe2aebd5e4/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/4791dfb1a7bb45cd9642dffd5aa3ec5d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/4791dfb1a7bb45cd9642dffd5aa3ec5d/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e45361444fd6d3a659e7ce048226bbbe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/e45361444fd6d3a659e7ce048226bbbe/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ec572c1b68f8d10a34cfd084852acc92/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/ec572c1b68f8d10a34cfd084852acc92/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f07dc39b10ae5ef92d7bef724f6211b1/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f07dc39b10ae5ef92d7bef724f6211b1/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3279f8a5c048045e315610991e9bfce7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3279f8a5c048045e315610991e9bfce7/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0eb5a870b81be65910502c543bbc6eb4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/0eb5a870b81be65910502c543bbc6eb4/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/994a2db2ff85495dd78813df708dd52b/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/994a2db2ff85495dd78813df708dd52b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/5ff63c24dac703bf0cb9b59895f6f23d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/5ff63c24dac703bf0cb9b59895f6f23d/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5aadf2cc1fc0f55243aa6ea37b0f1fe5/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/5aadf2cc1fc0f55243aa6ea37b0f1fe5/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/1f6debee5dad78c90b100aead909646c/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/1f6debee5dad78c90b100aead909646c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/5a65a74a3127affd5087db7a31021a58/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/5a65a74a3127affd5087db7a31021a58/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/10d2c99d93316ded1a15eb66e0f29844/AndroidManifest.xml:22:5-44
+MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/10d2c99d93316ded1a15eb66e0f29844/AndroidManifest.xml:22:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b835c6aa3a82f2f0a52862f4a8a18680/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b835c6aa3a82f2f0a52862f4a8a18680/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/4ac1bca6f8ed0516d53ac814285c2012/AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/4ac1bca6f8ed0516d53ac814285c2012/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:customtabs:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/95e7f6b2a0c6c14afaf32ca82d03ab9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/95e7f6b2a0c6c14afaf32ca82d03ab9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/243a1a0d270fb379e62fafb708f4f005/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/243a1a0d270fb379e62fafb708f4f005/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8f8b4aa717df509dbd7922778351f27e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/8f8b4aa717df509dbd7922778351f27e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/aff9c31243e393b05c1d1b4fea4ebf40/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-core-15.0.0.aar/aff9c31243e393b05c1d1b4fea4ebf40/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a3d69bfda84728975991eefa8fed258/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-15.0.1.aar/4a3d69bfda84728975991eefa8fed258/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/da82a9e61da81d2ea6cb097992c599a0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-gass:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-gass-15.0.1.aar/da82a9e61da81d2ea6cb097992c599a0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e665a2f6dfe14e911f3f44572731edda/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/e665a2f6dfe14e911f3f44572731edda/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/fbc012d4ed18d4b5e2cbc86699bf3f1a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-15.0.0.aar/fbc012d4ed18d4b5e2cbc86699bf3f1a/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8b238f963a27638b97582fb29a5e6945/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/8b238f963a27638b97582fb29a5e6945/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9b74413e398405ca451513cbcada9646/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/9b74413e398405ca451513cbcada9646/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dd14c29b6862c0ea032f374ffce67ba2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/dd14c29b6862c0ea032f374ffce67ba2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/887a723bb234079ffde18c4dc38968c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/887a723bb234079ffde18c4dc38968c1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f2dd464bc241a8fdaf973cbebe17eece/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/f2dd464bc241a8fdaf973cbebe17eece/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/7e24616896cd4e51cd5dde12b2769805/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/7e24616896cd4e51cd5dde12b2769805/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0d9bbf0fc835f7162f4a165be14d73f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/0d9bbf0fc835f7162f4a165be14d73f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/75b669507be05ecb49828258330f58e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/75b669507be05ecb49828258330f58e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f1961765d8db31acec547f367f709b7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/f1961765d8db31acec547f367f709b7b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/445bd365ea7de0b2036585840e9c2557/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/445bd365ea7de0b2036585840e9c2557/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7b2def42cb717ead54cef60d7df6edb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7b2def42cb717ead54cef60d7df6edb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/84d881058119722a2dba2b2ed1da58f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/84d881058119722a2dba2b2ed1da58f3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7b8704df6bd4413008a9eac27f51b2e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/7b8704df6bd4413008a9eac27f51b2e6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/53e1c53141b87a4a3946604d9de4310f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/53e1c53141b87a4a3946604d9de4310f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c82055497af90adcabc55a61c94dbaf7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c82055497af90adcabc55a61c94dbaf7/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/214a9f668cd0a3bf60688261a67609c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/214a9f668cd0a3bf60688261a67609c8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/855823bc1c6a5fef7aee4d3b5988d20c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/855823bc1c6a5fef7aee4d3b5988d20c/AndroidManifest.xml:20:5-44
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/209ff2e3e8e83c198978cf37bbe48d0c/AndroidManifest.xml:23:9-59
+		ADDED from [com.google.android.gms:play-services-ads:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/4ac1bca6f8ed0516d53ac814285c2012/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
@@ -278,168 +284,168 @@ INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManif
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:25:5-68
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:24:5-68
-MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:24:5-68
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:24:5-68
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:25:22-65
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:25:22-65
 uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:26:5-110
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:26:5-110
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:26:5-110
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:26:22-107
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:26:22-107
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:29:9-33:20
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:29:9-33:20
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:29:9-33:20
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:29:9-33:20
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:29:9-33:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:31:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:31:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:32:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:30:13-85
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:30:13-85
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:34:9-42:20
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:34:9-42:20
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:36:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:36:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:37:13-36
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:37:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:38:13-69
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:35:13-100
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:35:13-100
 intent-filter#action:name:com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:39:13-41:29
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:39:13-41:29
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:40:17-79
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:40:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:40:25-76
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:40:25-76
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:44:9-47:40
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:35:9-38:40
-MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/60769caa6918875c96d20f38966f7537/AndroidManifest.xml:35:9-38:40
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:44:9-47:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:35:9-38:40
+MERGED from [com.google.firebase:firebase-analytics-impl:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-15.0.2.aar/f6a4ac516c6857ca6b0cc179ceb64ff9/AndroidManifest.xml:35:9-38:40
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:46:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:46:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:47:13-37
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:47:13-37
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:45:13-84
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:45:13-84
 service#com.google.android.gms.measurement.AppMeasurementJobService
-ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:48:9-52:72
+ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:48:9-52:72
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:50:13-35
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:50:13-35
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:51:13-37
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:51:13-37
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:52:13-69
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:52:13-69
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/edbc31185e2a51737f626b6923c2b1e1/AndroidManifest.xml:49:13-87
-uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:26:5-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:26:22-79
-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:28:5-30:47
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:30:9-44
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:29:9-63
-permission#com.karimrizk.triviapp.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:28:5-30:47
-	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:30:9-44
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:29:9-63
-uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:32:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:32:22-76
-uses-permission#com.karimrizk.triviapp.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:32:5-79
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:32:22-76
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:35:9-39:19
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:35:18-89
-meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:36:13-38:85
-	android:value
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:38:17-82
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:37:17-96
-receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:41:9-50:20
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:43:13-36
-	android:permission
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:44:13-73
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:42:13-78
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:45:13-49:29
-intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.karimrizk.triviapp
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:45:13-49:29
-action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:46:17-81
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:46:25-78
-category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:48:17-61
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:48:27-58
-category#com.karimrizk.triviapp
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:48:17-61
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:48:27-58
-service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:56:9-62:19
-	android:exported
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:58:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:57:13-77
-intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:59:13-61:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:59:28-51
-action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:60:17-80
-	android:name
-		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/5b308dca20e2298b5b1481228cecbe39/AndroidManifest.xml:60:25-77
-provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:8:9-12:39
-	android:authorities
-		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:10:13-72
-	android:exported
-		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:11:13-37
-	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:12:13-36
-	android:name
-		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6506cad4b204f26d83f75efbf2aa2cc5/AndroidManifest.xml:9:13-77
+		ADDED from [com.google.firebase:firebase-analytics:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-analytics-15.0.2.aar/c67f14bd5b4d3dce6260313cb1cc1b35/AndroidManifest.xml:49:13-87
 activity#com.google.android.gms.ads.AdActivity
-ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:29:9-33:64
+ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:29:9-33:64
 	android:exported
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:32:13-37
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:32:13-37
 	android:configChanges
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:31:13-122
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:31:13-122
 	android:theme
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:33:13-61
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:33:13-61
 	android:name
-		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/883e2df4a9ceac68e9902297eacea994/AndroidManifest.xml:30:13-65
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-ads-lite:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-15.0.1.aar/fb87174e85b4849f2ce31ec63f820204/AndroidManifest.xml:30:13-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:26:5-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:23:9-25:69
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:29:9-63
+permission#com.karimrizk.triviapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:32:22-76
+uses-permission#com.karimrizk.triviapp.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:32:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:35:18-89
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.karimrizk.triviapp
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:48:27-58
+category#com.karimrizk.triviapp
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-iid-15.1.0.aar/20f88dbe10defd6c018345e1a1d138e1/AndroidManifest.xml:60:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:8:9-12:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:11:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:12:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-common-15.0.1.aar/6970361efb151cfcc4ee0cbabb51f3f7/AndroidManifest.xml:9:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/AndroidManifest.xml:24:13-58

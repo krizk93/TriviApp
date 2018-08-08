@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_user_answers.xml",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/activity_user_answers.xml"
+    },
+    {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_quiz.xml",
         "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/fragment_quiz.xml"
     },
@@ -10,6 +14,10 @@
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_category_chooser.xml",
         "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/activity_category_chooser.xml"
+    },
+    {
+        "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/answer_item.xml",
+        "source": "/Users/karimrizk/StudioProjects/TriviApp/app/src/main/res/layout/answer_item.xml"
     },
     {
         "merged": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_game_over.xml",

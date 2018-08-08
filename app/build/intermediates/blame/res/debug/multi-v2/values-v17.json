@@ -4,7 +4,7 @@
             "outputFile": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/res/values-v17/values-v17.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

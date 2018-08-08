@@ -4,7 +4,7 @@
             "outputFile": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/res/values-sl/values.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/res/values-sl/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,41 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f07dc39b10ae5ef92d7bef724f6211b1/res/values-sl/values-sl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "5317",
-                        "endColumns": "100",
-                        "endOffsets": "5413"
-                    }
-                },
-                {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/res/values-sl/values-sl.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,319,427,514,617,736,821,905,989,1097,1206,1306,1419,1526,1630,1810,1907",
-                        "endColumns": "106,106,107,86,102,118,84,83,83,107,108,99,112,106,103,179,96,82",
-                        "endOffsets": "207,314,422,509,612,731,816,900,984,1092,1201,1301,1414,1521,1625,1805,1902,1985"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,44",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,212,319,427,514,617,736,821,905,989,1097,1206,1306,1419,1526,1630,1810,5234",
-                        "endColumns": "106,106,107,86,102,118,84,83,83,107,108,99,112,106,103,179,96,82",
-                        "endOffsets": "207,314,422,509,612,731,816,900,984,1092,1201,1301,1414,1521,1625,1805,1902,5312"
-                    }
-                },
-                {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/209ff2e3e8e83c198978cf37bbe48d0c/res/values-sl/values.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/4ac1bca6f8ed0516d53ac814285c2012/res/values-sl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",
@@ -72,7 +38,41 @@
                     }
                 },
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/res/values-sl/values.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7b2def42cb717ead54cef60d7df6edb/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "5317",
+                        "endColumns": "100",
+                        "endOffsets": "5413"
+                    }
+                },
+                {
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,319,427,514,617,736,821,905,989,1097,1206,1306,1419,1526,1630,1810,1907",
+                        "endColumns": "106,106,107,86,102,118,84,83,83,107,108,99,112,106,103,179,96,82",
+                        "endOffsets": "207,314,422,509,612,731,816,900,984,1092,1201,1301,1414,1521,1625,1805,1902,1985"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,319,427,514,617,736,821,905,989,1097,1206,1306,1419,1526,1630,1810,5234",
+                        "endColumns": "106,106,107,86,102,118,84,83,83,107,108,99,112,106,103,179,96,82",
+                        "endOffsets": "207,314,422,509,612,731,816,900,984,1092,1201,1301,1414,1521,1625,1805,1902,5312"
+                    }
+                },
+                {
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/res/values-sl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",

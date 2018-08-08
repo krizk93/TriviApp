@@ -4,7 +4,7 @@
             "outputFile": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f07dc39b10ae5ef92d7bef724f6211b1/res/values-v16/values-v16.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7b2def42cb717ead54cef60d7df6edb/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/res/values-v16/values-v16.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

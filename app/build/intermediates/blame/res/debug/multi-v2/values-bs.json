@@ -4,24 +4,7 @@
             "outputFile": "/Users/karimrizk/StudioProjects/TriviApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bs/values-bs.xml",
             "map": [
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/f07dc39b10ae5ef92d7bef724f6211b1/res/values-bs/values-bs.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "45",
-                        "startColumns": "4",
-                        "startOffsets": "5290",
-                        "endColumns": "100",
-                        "endOffsets": "5386"
-                    }
-                },
-                {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/c3cdd70eedb20a511991e562a5dcbed2/res/values-bs/values.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/6deaa0f6550a8e2ad8f7478c996b43d8/res/values-bs/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/9ea6c1816d06efe21dcadf44a9dd20e0/res/values-bs/values-bs.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/3cbce3305ba3a03fbf015b1e3985ea6a/res/values-bs/values-bs.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -55,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/1bd5267f9d36b8f9894f5320214d7370/res/values-bs/values.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/4ac1bca6f8ed0516d53ac814285c2012/res/values-bs/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "197,267,386,452,515,603,718",
+                        "endColumns": "69,118,65,62,87,114,69",
+                        "endOffsets": "266,385,451,514,602,717,787"
+                    },
+                    "to": {
+                        "startLines": "37,38,39,40,41,42,43",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "4587,4661,4784,4854,4921,5013,5132",
+                        "endColumns": "73,122,69,66,91,118,73",
+                        "endOffsets": "4656,4779,4849,4916,5008,5127,5201"
+                    }
+                },
+                {
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9bfc26573cc2f9d840456db92cad1fef/res/values-bs/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,20 +72,20 @@
                     }
                 },
                 {
-                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-15.0.1.aar/209ff2e3e8e83c198978cf37bbe48d0c/res/values-bs/values.xml",
+                    "source": "/Users/karimrizk/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/e7b2def42cb717ead54cef60d7df6edb/res/values-bs/values-bs.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,267,386,452,515,603,718",
-                        "endColumns": "69,118,65,62,87,114,69",
-                        "endOffsets": "266,385,451,514,602,717,787"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "37,38,39,40,41,42,43",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "4587,4661,4784,4854,4921,5013,5132",
-                        "endColumns": "73,122,69,66,91,118,73",
-                        "endOffsets": "4656,4779,4849,4916,5008,5127,5201"
+                        "startLines": "45",
+                        "startColumns": "4",
+                        "startOffsets": "5290",
+                        "endColumns": "100",
+                        "endOffsets": "5386"
                     }
                 }
             ]

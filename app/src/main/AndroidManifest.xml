@@ -41,6 +41,10 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/trivia_widget_info" />
         </receiver>
+
+        <activity
+            android:name=".ui.UserAnswersActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
     </application>
 
 </manifest>
