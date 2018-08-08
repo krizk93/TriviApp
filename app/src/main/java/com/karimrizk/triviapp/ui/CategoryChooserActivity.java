@@ -15,6 +15,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.karimrizk.triviapp.R;
 import com.karimrizk.triviapp.utils.Values;
 import com.karimrizk.triviapp.api.Client;
@@ -36,12 +37,14 @@ public class CategoryChooserActivity extends AppCompatActivity {
     private static final String TAG = CategoryChooserActivity.class.getName();
     private int chosenCategory = 0;
     private static Integer questionNumber = 0;
+    private static FirebaseAnalytics mFirebaseAnalytics;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_chooser);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         categoryChooserBinding = DataBindingUtil.setContentView(this, R.layout.activity_category_chooser);
 
         if (Values.isNewQuiz) {
@@ -50,26 +53,42 @@ public class CategoryChooserActivity extends AppCompatActivity {
     }
 
     public void onCategoryChosen(View v) {
+        Bundle bundle = new Bundle();
+        bundle.putInt("ButtonID", v.getId());
+        String btnName;
+
         switch (v.getId()) {
             case R.id.btn_category_general:
                 chosenCategory = Values.category.generalKnowledge.getCategoryID();
+                btnName = getResources().getString(R.string.category_general_knowledge);
                 break;
             case R.id.btn_category_sports:
                 chosenCategory = Values.category.sports.getCategoryID();
+                btnName = getResources().getString(R.string.category_sports);
                 break;
             case R.id.btn_category_celebrities:
                 chosenCategory = Values.category.celebrities.getCategoryID();
+                btnName = getResources().getString(R.string.category_celebrities);
                 break;
             case R.id.btn_category_geography:
                 chosenCategory = Values.category.geography.getCategoryID();
+                btnName = getResources().getString(R.string.category_geography);
                 break;
             case R.id.btn_category_books:
                 chosenCategory = Values.category.books.getCategoryID();
+                btnName = getResources().getString(R.string.category_books);
                 break;
             case R.id.btn_category_film:
                 chosenCategory = Values.category.film.getCategoryID();
+                btnName = getResources().getString(R.string.category_film);
+                break;
+            default:
+                btnName = "";
                 break;
         }
+
+        mFirebaseAnalytics.logEvent(btnName, bundle);
+
         if (!isOnline()) {
             Toast.makeText(getApplicationContext(), "No Internet Connection", Toast.LENGTH_LONG).show();
         } else {
