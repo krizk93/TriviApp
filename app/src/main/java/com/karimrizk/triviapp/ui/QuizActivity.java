@@ -157,9 +157,9 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
         activityQuizBinding.txtScore.setText(String.valueOf(score));
 
         ContentValues values = new ContentValues();
-        values.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER,answer);
+        values.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER, answer);
         uri = TriviaContract.TriviaEntry.CONTENT_URI.buildUpon().appendPath(currentQuestion.toString()).build();
-        int updated = getContentResolver().update(uri,values,null,null);
+        int updated = getContentResolver().update(uri, values, null, null);
 
         currentQuestion++;
         replace = true;
@@ -176,12 +176,12 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
     @Override
     public void onIncorrectAnswerClicked(String answer) {
         ContentValues values = new ContentValues();
-        values.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER,answer);
+        values.put(TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER, answer);
         uri = TriviaContract.TriviaEntry.CONTENT_URI.buildUpon().appendPath(currentQuestion.toString()).build();
-        int updated = getContentResolver().update(uri,values,null,null);
+        int updated = getContentResolver().update(uri, values, null, null);
 
         Intent intent = new Intent(QuizActivity.this, GameOverActivity.class);
-        intent.putExtra(SCORE_KEY,score);
+        intent.putExtra(SCORE_KEY, score);
         startActivity(intent);
     }
 }

@@ -68,7 +68,9 @@ public class UserAnswersActivity extends AppCompatActivity implements android.su
             @Override
             public Cursor loadInBackground() {
                 try {
-                    return result = getContentResolver().query(TriviaContract.TriviaEntry.CONTENT_URI, null, null, null, TriviaContract.TriviaEntry.COLUMN_ID);
+                    String selection = TriviaContract.TriviaEntry.COLUMN_PLAYER_ANSWER + "!= ?";
+                    String[] selectionArgs = new String[] {""};
+                    return result = getContentResolver().query(TriviaContract.TriviaEntry.CONTENT_URI, null, selection, selectionArgs, TriviaContract.TriviaEntry.COLUMN_ID);
 
                 } catch(Exception e){
                     Log.e(TAG, "Failed to asynchronously load data");
