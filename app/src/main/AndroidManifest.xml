@@ -12,13 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".ui.HomeActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".ui.CategoryChooserActivity" />
 
         <provider
@@ -28,8 +31,8 @@
 
         <activity
             android:name=".ui.QuizActivity"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:screenOrientation="portrait" />
+
         <activity android:name=".ui.GameOverActivity" />
 
         <receiver android:name=".widget.TriviaWidget">
@@ -42,9 +45,11 @@
                 android:resource="@xml/trivia_widget_info" />
         </receiver>
 
-        <activity
-            android:name=".ui.UserAnswersActivity"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".ui.UserAnswersActivity" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

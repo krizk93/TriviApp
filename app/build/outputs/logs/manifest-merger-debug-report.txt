@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [com.android.databinding:adapters:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/adapters-3.1.4.aar/5a65a74a3127affd5087db7a31021a58/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.databinding:library:3.1.4] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/library-3.1.4.aar/10d2c99d93316ded1a15eb66e0f29844/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:design:27.1.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/b835c6aa3a82f2f0a52862f4a8a18680/AndroidManifest.xml:17:1-22:12
@@ -42,20 +42,20 @@ MERGED from [android.arch.core:runtime:1.1.0] /Users/karimrizk/.gradle/caches/tr
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/c82055497af90adcabc55a61c94dbaf7/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-ads-base:15.0.1] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-ads-base-15.0.1.aar/214a9f668cd0a3bf60688261a67609c8/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-15.0.2.aar/855823bc1c6a5fef7aee4d3b5988d20c/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
-INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-50:12
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -84,7 +84,7 @@ MERGED from [com.google.firebase:firebase-iid:15.1.0] /Users/karimrizk/.gradle/c
 	android:name
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:8:5-48:19
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:8:5-53:19
 MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-ads:15.0.0] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/firebase-ads-15.0.0.aar/a3bfd472967b023a81665cc630599815/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/karimrizk/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/243a1a0d270fb379e62fafb708f4f005/AndroidManifest.xml:9:5-20
@@ -132,65 +132,67 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] /User
 	android:theme
 		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:14:9-40
 activity#com.karimrizk.triviapp.ui.HomeActivity
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:16:9-23:20
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:15:19-50
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:16:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:21:27-74
 activity#com.karimrizk.triviapp.ui.CategoryChooserActivity
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:22:9-64
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:25:9-64
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:22:19-61
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:25:19-61
 provider#com.karimrizk.triviapp.persistence.TriviaContentProvider
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:24:9-27:40
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:27:9-30:40
 	android:authorities
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:26:13-57
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:29:13-57
 	android:exported
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:27:13-37
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:25:13-62
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:28:13-62
 activity#com.karimrizk.triviapp.ui.QuizActivity
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:29:9-32:72
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:32:9-34:52
 	android:screenOrientation
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:31:13-49
-	android:theme
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:32:13-69
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:34:13-49
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:30:13-44
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:33:13-44
 activity#com.karimrizk.triviapp.ui.GameOverActivity
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:33:9-57
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:36:9-57
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:33:19-54
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:36:19-54
 receiver#com.karimrizk.triviapp.widget.TriviaWidget
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:35:9-43:20
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:38:9-46:20
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:35:19-54
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:38:19-54
 intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:36:13-38:29
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:39:13-41:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:37:17-84
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:40:17-84
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:37:25-81
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:40:25-81
 meta-data#android.appwidget.provider
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:40:13-42:62
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:43:13-45:62
 	android:resource
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:42:17-59
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:45:17-59
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:41:17-58
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:44:17-58
 activity#com.karimrizk.triviapp.ui.UserAnswersActivity
-ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:45:9-47:71
-	android:theme
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:47:13-69
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:48:9-60
 	android:name
-		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:46:13-51
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:48:19-57
+meta-data#preloaded_fonts
+ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:49:9-51:57
+	android:resource
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:51:13-54
+	android:name
+		ADDED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml:50:13-43
 uses-sdk
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/karimrizk/StudioProjects/TriviApp/app/src/main/AndroidManifest.xml

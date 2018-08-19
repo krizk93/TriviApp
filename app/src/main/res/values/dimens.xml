@@ -2,8 +2,8 @@
 <resources>
     <dimen name="category_button_width">120dp</dimen>
     <dimen name="category_button_height">60dp</dimen>
-    <dimen name="answer_button_width">160dp</dimen>
-    <dimen name="answer_button_height">120dp</dimen>
+    <dimen name="main_button_width">300dp</dimen>
+    <dimen name="answer_button_height">60dp</dimen>
     <dimen name="answer_button_top_margin">24dp</dimen>
 
     <!--

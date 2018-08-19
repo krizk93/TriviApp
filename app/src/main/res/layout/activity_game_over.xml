@@ -17,11 +17,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="20dp"
-                android:fontFamily="casual"
+                android:fontFamily="@font/wellfleet"
                 android:gravity="center"
                 android:text="@string/game_over"
                 android:textColor="@color/PrimaryTextColor"
-                android:textSize="60sp"
+                android:textSize="40sp"
                 android:textStyle="bold"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
@@ -35,10 +35,10 @@
                 android:text="@string/new_high_score"
                 android:textColor="@color/colorAccent"
                 android:textSize="30sp"
+                android:visibility="invisible"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/label_game_over"
-                android:visibility="invisible"/>
+                app:layout_constraintTop_toBottomOf="@id/label_game_over" />
 
             <TextView
                 android:id="@+id/label_score"
@@ -68,8 +68,7 @@
 
             <Button
                 android:id="@+id/btn_play_again"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/MainButton"
                 android:layout_marginTop="40dp"
                 android:onClick="onPlayAgain"
                 android:text="@string/play_again"
@@ -80,8 +79,7 @@
 
             <Button
                 android:id="@+id/btn_view_answers"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                style="@style/MainButton"
                 android:layout_margin="10dp"
                 android:onClick="onViewAnswers"
                 android:text="@string/view_answers"

@@ -6,6 +6,7 @@ import android.content.SharedPreferences;
 import android.databinding.DataBindingUtil;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -20,6 +21,7 @@ import static com.karimrizk.triviapp.utils.Values.SHARED_PREFERENCE_NAME;
 
 public class HomeActivity extends AppCompatActivity {
 
+    private static final String TAG = HomeActivity.class.getName();
     ActivityHomeBinding homeBinding;
     SharedPreferences sharedPreferences;
 
@@ -39,7 +41,7 @@ public class HomeActivity extends AppCompatActivity {
 
         int removed = getContentResolver().delete(TriviaContract.TriviaEntry.CONTENT_URI, null, null);
         if (removed > 0) {
-            Toast.makeText(getApplicationContext(), "Removed", Toast.LENGTH_SHORT).show();
+            Log.d(TAG,"Removed Previous Entries from Database");
         }
     }
 

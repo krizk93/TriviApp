@@ -89,10 +89,12 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
         fragmentQuizBinding.btnAnswer4.setOnClickListener(this);
 
         //helper function
+        /*
         helper(fragmentQuizBinding.btnAnswer1);
         helper(fragmentQuizBinding.btnAnswer2);
         helper(fragmentQuizBinding.btnAnswer3);
         helper(fragmentQuizBinding.btnAnswer4);
+        */
 
         return fragmentQuizBinding.getRoot();
 
@@ -142,10 +144,10 @@ public class QuizFragment extends Fragment implements View.OnClickListener {
 
     private void checkForAnswer(Button button) {
         if (button.getText().toString().equals(correctAnswer)) {
-            //button.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
+            button.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
             mCallback.onCorrectAnswerClicked(button.getText().toString());
         } else {
-            //button.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
+            button.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
             mCallback.onIncorrectAnswerClicked(button.getText().toString());
         }
     }

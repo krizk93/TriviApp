@@ -6,17 +6,18 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
         tools:context=".ui.CategoryChooserActivity">
 
         <TextView
             android:id="@+id/tv_category_chooser"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:fontFamily="casual"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/wellfleet"
             android:text="@string/category_chooser_title"
-            android:textColor="@android:color/holo_red_dark"
-            android:textSize="40sp"
+            android:textColor="@color/SecondaryTextColor"
+            android:textSize="36sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
