@@ -52,7 +52,6 @@ public class GameOverActivity extends AppCompatActivity {
     }
 
     public void onViewAnswers(View v) {
-        //Toast.makeText(getApplicationContext(),"TO BE IMPLEMENTED",Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(GameOverActivity.this,UserAnswersActivity.class);
         startActivity(intent);
     }
