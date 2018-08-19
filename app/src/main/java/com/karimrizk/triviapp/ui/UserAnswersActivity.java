@@ -21,7 +21,6 @@ public class UserAnswersActivity extends AppCompatActivity implements android.su
     ActivityUserAnswersBinding userAnswersBinding;
 
     private static final String TAG = QuizActivity.class.getName();
-    private Context mContext;
     private static final int LOADER_ID = 0;
     private AnswersAdapter mAdapter;
 
@@ -31,11 +30,11 @@ public class UserAnswersActivity extends AppCompatActivity implements android.su
         setContentView(R.layout.activity_user_answers);
         userAnswersBinding = DataBindingUtil.setContentView(this,R.layout.activity_user_answers);
 
-        mContext = getApplicationContext();
-        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(mContext);
+        Context context = getApplicationContext();
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(context);
         userAnswersBinding.recyclerView.setLayoutManager(layoutManager);
 
-        mAdapter = new AnswersAdapter(mContext);
+        mAdapter = new AnswersAdapter(context);
         userAnswersBinding.recyclerView.setAdapter(mAdapter);
         getSupportLoaderManager().initLoader(LOADER_ID, null, this);
 

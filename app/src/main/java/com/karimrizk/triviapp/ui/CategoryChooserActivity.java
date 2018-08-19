@@ -165,6 +165,7 @@ public class CategoryChooserActivity extends AppCompatActivity {
             if (!uris.isEmpty()) {
                 Intent intent = new Intent(CategoryChooserActivity.this, QuizActivity.class);
                 startActivity(intent);
+                finish();
             } else {
                 Toast.makeText(getApplicationContext(), "Error storing data", Toast.LENGTH_LONG).show();
             }

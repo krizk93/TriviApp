@@ -68,13 +68,14 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
 
     public void onClose(View v) {
         Intent intent = new Intent(QuizActivity.this, HomeActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         Intent intent = new Intent(QuizActivity.this, HomeActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 
@@ -170,6 +171,7 @@ public class QuizActivity extends AppCompatActivity implements android.support.v
             Values.isNewQuiz = false;
             Intent intent = new Intent(QuizActivity.this, CategoryChooserActivity.class);
             startActivity(intent);
+            finish();
         }
     }
 

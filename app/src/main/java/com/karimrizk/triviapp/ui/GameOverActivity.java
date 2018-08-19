@@ -47,6 +47,7 @@ public class GameOverActivity extends AppCompatActivity {
 
     public void onPlayAgain(View v) {
         Intent intent = new Intent(GameOverActivity.this, HomeActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 
@@ -68,8 +69,8 @@ public class GameOverActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        super.onBackPressed();
         Intent intent = new Intent(GameOverActivity.this,HomeActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(intent);
     }
 }

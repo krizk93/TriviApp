@@ -138,14 +138,14 @@ public final class R {
         public static final int status_bar_notification_info_overflow = 0x7f0c0059;
     }
     public static final class style {
-        public static final int TextAppearance_Compat_Notification = 0x7f0d00f3;
-        public static final int TextAppearance_Compat_Notification_Info = 0x7f0d00f4;
-        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d00f6;
-        public static final int TextAppearance_Compat_Notification_Time = 0x7f0d00f9;
-        public static final int TextAppearance_Compat_Notification_Title = 0x7f0d00fb;
-        public static final int Widget_Compat_NotificationActionContainer = 0x7f0d0172;
-        public static final int Widget_Compat_NotificationActionText = 0x7f0d0173;
-        public static final int Widget_Support_CoordinatorLayout = 0x7f0d017f;
+        public static final int TextAppearance_Compat_Notification = 0x7f0d00f4;
+        public static final int TextAppearance_Compat_Notification_Info = 0x7f0d00f5;
+        public static final int TextAppearance_Compat_Notification_Line2 = 0x7f0d00f7;
+        public static final int TextAppearance_Compat_Notification_Time = 0x7f0d00fa;
+        public static final int TextAppearance_Compat_Notification_Title = 0x7f0d00fc;
+        public static final int Widget_Compat_NotificationActionContainer = 0x7f0d0173;
+        public static final int Widget_Compat_NotificationActionText = 0x7f0d0174;
+        public static final int Widget_Support_CoordinatorLayout = 0x7f0d0180;
     }
     public static final class styleable {
         public static final int[] CoordinatorLayout = { 0x7f0300cf, 0x7f030158 };
